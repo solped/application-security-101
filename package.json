@@ -38,5 +38,10 @@
   },
   "devDependencies": {
     "husky": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "$TALISMAN_HOME/talisman_hook_script pre-commit"
+    }
   }
 }
