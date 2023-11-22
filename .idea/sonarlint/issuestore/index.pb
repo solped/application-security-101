@@ -44,3 +44,5 @@ W
 src/secret.txt,9/4/945bc9492cc3e4049c2f195d2e5131e09503733c
 ;
 src/testkey,6/4/64a9c1f8657b112ae519f3d0dffc63c3ab19fcfa
+U
+%lab/01-secret-scanning/03-gitleaks.md,5/b/5b4440f35663323cde21ba3aa1b39399e9ebfbac
