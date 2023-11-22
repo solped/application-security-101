@@ -8,7 +8,7 @@ and scan for vulnerabilities, tech debt, security risk in the source code.
 - Docker
 - Docker-compose
 
-### Step-by-Step Talisman & Husky
+### Step-by-Step Sonarqube
 
 - 1.) Start the SonarQube server via docker-compose
   ```shell
