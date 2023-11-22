@@ -27,7 +27,7 @@ and scan for secret, credential or any password in the source code.
 
 - 3.) Adding files with credentials
   ```shell
-  mkdir sec-files && cd sec-files 
+  mkdir sec-files-001 && cd sec-files-001 
   echo "username=teracloud-user" > username
   echo "password=teracloud-password" > password.txt
   echo "apiKey=aPPs32988sab21SA1221vdsXeTYY_243" > ultrasecret
