@@ -9,18 +9,30 @@ and scan for secret, credential or any password in the source code.
 
 ### Step-by-Step
 
-- 0.) Install [husky](https://typicode.github.io/husky/getting-started.html)
-
-- 1.) Install the Talisman
-    ```shell
-    brew install talisman
-    ```
-- 2.) Scan the source code folder `/client`
+- 0) Install pre-commit hook
   ```shell
-  talisman --scan
+  brew install pre-commit
   ```
 
-- 3.) Open the Talisman report and verify result at `talisman_report`
+- 1.) Install the Talisman
+  ```shell
+  curl https://thoughtworks.github.io/talisman/install.sh > ~/install-talisman.sh 
+  chmod +x ~/install-talisman.sh
+  ```
+
+- 2.) Install pre-commit hook`
+  ```shell
+  ~/install-talisman.sh pre-commit
+  ```
+
+- 3.) Adding files with credentials
+  ```shell
+  mkdir sec-files && cd sec-files 
+  echo "username=teracloud-user" > username
+  echo "password=teracloud-password" > password.txt
+  echo "apiKey=aPPs32988sab21SA1221vdsXeTYY_243" > ultrasecret
+  echo "base64encodedsecret=aPPs32988sss67SA1229vdsXeTXY_27777==" > secret
+  ```
 
 ### Useful Links
 
