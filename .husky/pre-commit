@@ -2,3 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "husky pre-commit executed"
+$TALISMAN_HOME/talisman_hook_script pre-commit
