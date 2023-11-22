@@ -46,3 +46,11 @@ W
 src/testkey,6/4/64a9c1f8657b112ae519f3d0dffc63c3ab19fcfa
 U
 %lab/01-secret-scanning/03-gitleaks.md,5/b/5b4440f35663323cde21ba3aa1b39399e9ebfbac
+u
+Elab/03-vulnerable-dependency-checking/01-OWASP-dependency-checking.md,5/4/54c6364127173f3801909281dc86f4370c93f229
+e
+5lab/03-vulnerable-dependency-checking/02-blackduck.md,1/d/1da9fc93bc536d8185e11914eaeed03e00fac2b2
+h
+8lab/04-exploratory-vulnerability-testing/01-OWASP-ZAP.md,8/9/89ed19f625b8891bcac48cb90a4adaf2f862c60d
+S
+#lab/05-github-action/instruction.md,6/7/67d6d0ad56b712d039bf80bc1ea48e388dfed9a3
