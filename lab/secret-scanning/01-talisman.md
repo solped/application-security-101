@@ -5,14 +5,10 @@ and scan for secret, credential or any password in the source code.
 
 ### Prerequisite
 
-- Node 16
+- Node LTS
+- [Husky](https://typicode.github.io/husky/getting-started.html#automatic-recommended)
 
-### Step-by-Step
-
-- 0) Install pre-commit hook
-  ```shell
-  brew install pre-commit
-  ```
+### Step-by-Step Talisman & Husky
 
 - 1.) Install the Talisman
   ```shell
@@ -33,6 +29,16 @@ and scan for secret, credential or any password in the source code.
   echo "apiKey=aPPs32988sab21SA1221vdsXeTYY_243" > ultrasecret
   echo "base64encodedsecret=aPPs32988sss67SA1229vdsXeTXY_27777==" > secret
   ```
+
+- 4.) Add files and commit, then you should see error and block your git push
+  ```shell
+  git add .
+  git commit -m "commit password files"
+  ```
+
+- 5.) The Talisman will report files that contains credentials
+  ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/001-talisman.png)
+
 
 ### Useful Links
 
