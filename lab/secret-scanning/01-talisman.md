@@ -15,6 +15,8 @@ and scan for secret, credential or any password in the source code.
   curl https://thoughtworks.github.io/talisman/install.sh > ~/install-talisman.sh 
   chmod +x ~/install-talisman.sh
   ```
+  NOTE: Make sure to set up the `TALISMAN_HOME` properly
+
 
 - 2.) Install pre-commit hook`
   ```shell
@@ -38,7 +40,6 @@ and scan for secret, credential or any password in the source code.
 
 - 5.) The Talisman will report files that contains credentials
   ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/001-talisman.png)
-
 
 ### Useful Links
 
