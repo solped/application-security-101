@@ -46,3 +46,5 @@ h
 8lab/04-exploratory-vulnerability-testing/01-OWASP-ZAP.md,8/9/89ed19f625b8891bcac48cb90a4adaf2f862c60d
 S
 #lab/05-github-action/instruction.md,6/7/67d6d0ad56b712d039bf80bc1ea48e388dfed9a3
+f
+6lab/04-exploratory-vulnerability-testing/02-Fiddler.md,a/f/af92179cc6a4b4aa4bf41c1fff2b83d48def0e1a
