@@ -52,3 +52,5 @@ f
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 N
 lab/02-sast/scanner_windows.sh,b/3/b32199d0a544d588e65bdccb0c8e89aa110745a9
+L
+dependency-check-report.html,c/e/ce2043224f407e51931b9a136509189a5045f847

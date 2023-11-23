@@ -1,6 +1,6 @@
 export SONARQUBE_URL="localhost:9000"
-export YOUR_PROJECT_KEY="sast-demo"
-export AUTH_TOKEN="sqp_38734db8c91d2223e36e11afd320c03fb9192900"
+export YOUR_PROJECT_KEY="sast"
+export AUTH_TOKEN="sqp_539824c89d782875aa71fd8923120f585cb2ce57"
 export YOUR_REPO=./../../src/
 
 docker run \
