@@ -34,6 +34,7 @@ and scan for secret, credential or any password in the source code.
 
 - 4.) Add files and commit, then you should see error and block your git push
   ```shell
+  cd ..
   git add .
   git commit -m "commit password files"
   ```
