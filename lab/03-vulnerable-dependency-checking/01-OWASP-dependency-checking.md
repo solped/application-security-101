@@ -15,6 +15,7 @@ and scan for secret, credential or any password in the source code, git repo, s3
 
 - 2.) Scan the source code
   ```shell
+  npm install
   dependency-check --project "My project" --scan "src/"
   
   ~/Downloads/dependency-check/bin/dependency-check.sh --scan . -o .
