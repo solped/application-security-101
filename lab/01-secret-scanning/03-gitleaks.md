@@ -16,8 +16,11 @@ and scan for secret, credential or any password in the source code, git repo, s3
   ```shell
   gitleaks detect --source src -v
   
-  # docker version
+  # docker version on Mac
   docker run --rm -it -v "$PWD:/pwd" zricethezav/gitleaks:latest detect --source /pwd/src -v
+  
+  # docker version via powershell
+  docker run --rm -it -v "${PWD}:/pwd" zricethezav/gitleaks:latest detect --source /pwd/src -v
   ```
 
 ### Useful Links

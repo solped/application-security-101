@@ -50,3 +50,5 @@ f
 6lab/04-exploratory-vulnerability-testing/02-Fiddler.md,a/f/af92179cc6a4b4aa4bf41c1fff2b83d48def0e1a
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+N
+lab/02-sast/scanner_windows.sh,b/3/b32199d0a544d588e65bdccb0c8e89aa110745a9

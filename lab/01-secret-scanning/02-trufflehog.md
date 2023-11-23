@@ -27,7 +27,11 @@ and scan for secret, credential or any password in the source code, git repo, s3
 
 - 5.) Scan individual files or directories
   ```shell
+  # docker on Mac
   docker run --rm -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest filesystem /pwd/src
+  
+  # docker Windows via PS
+  docker run --rm -it -v "${PWD}:/pwd" trufflesecurity/trufflehog:latest filesystem /pwd/src
   ```
 
 ### Useful Links

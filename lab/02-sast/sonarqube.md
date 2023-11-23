@@ -25,8 +25,7 @@ and scan for vulnerabilities, tech debt, security risk in the source code.
 - 4.) Replace project_id, auth_key in [scanner.sh](scanner.sh), Then execute SonarScanner CLI via docker and publish
   result to SonarQube Server
   ```shell
-  cd lab/02-sast
-  bash scanner.sh
+  bash lab/02-sast/scanner.sh
   ```
 
 - 4.) Go and check on the Sonar server, you should see security hotspot
