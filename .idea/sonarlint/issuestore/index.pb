@@ -7,8 +7,6 @@ U
 %lab/01-secret-scanning/01-talisman.md,a/5/a577c81ba839b17726f13c48558300634404b2f2
 M
 .git/hooks/post-update.sample,3/2/32b88c92c4fcebbe0c6989e523d24776d7f1e9a3
-<
-password.txt,d/9/d9d881ec54e9757580740c9abbb85ed7417c1420
 H
 lab/02-sast/sonarqube.md,8/d/8d1febcc1298e0aa98ff872ac99cb45ba24b38d5
 A
@@ -34,14 +32,8 @@ F
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 F
 lab/02-sast/scanner.sh,2/1/21de523277917b2be021a834a784c69101e8eb15
-H
-sonar-project.properties,2/5/2538046035efb77ecc44e1fd2eec1e2641594d4c
-T
-$lab/01-secret-scanning/02-trufflehog,e/7/e71e2445c7e1a5488e0d1468e0968842847f95a3
 W
 'lab/01-secret-scanning/02-trufflehog.md,c/e/ce51fa728616d7db90e3180045b613f76c9943ad
->
-src/secret.txt,9/4/945bc9492cc3e4049c2f195d2e5131e09503733c
 ;
 src/testkey,6/4/64a9c1f8657b112ae519f3d0dffc63c3ab19fcfa
 U
