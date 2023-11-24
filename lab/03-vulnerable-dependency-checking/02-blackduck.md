@@ -6,18 +6,18 @@ and scan for vulnerabilities
 ### Step-by-Step Synopsys
 
 - 1.) Install the application plugin
-    ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/004-Synopsys.png)
+    ![](../../images/004-Synopsys.png)
 
 
 - 2.) Enable Free Trial and wait for the set up
 
 
 - 3.) Scan the source code
-    ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/005-Synopsy.png)
+    ![](../../images/005-Synopsy.png)
 
 
 - 4.) Try to fix the issue using "Fix it" button
-    ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/006-Synopsy.png)
+    ![](../../images/006-Synopsy.png)
 
 ### Useful Links
 
