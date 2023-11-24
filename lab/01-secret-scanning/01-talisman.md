@@ -40,7 +40,7 @@ and scan for secret, credential or any password in the source code.
   ```
 
 - 5.) The Talisman will report files that contains credentials
-  ![](/Users/worasitdaimongkol/Repositories/NTC/application-security-101/images/001-talisman.png)
+  ![](../../images/001-talisman.png)
 
 ### Useful Links
 
