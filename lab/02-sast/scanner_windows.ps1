@@ -1,0 +1,1 @@
+docker run --network=host --rm -e SONAR_HOST_URL="http://localhost:9000" -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=Sample" -e SONAR_TOKEN="sqp_38ac5121dbc8635d8e15a2d15c9f8647f084caff" -v "$(Resolve-Path (Join-Path $PWD 'src')):/usr/src" sonarsource/sonar-scanner-cli
